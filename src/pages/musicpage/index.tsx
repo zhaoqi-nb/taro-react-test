@@ -22,7 +22,7 @@ export default class Index extends Component {
         interval={1500}
         indicatorColor='#999'
         onClick={() => { }}
-        circular={true}
+        circular
         onAnimationFinish={() => { }}
       >
         <SwiperItem>

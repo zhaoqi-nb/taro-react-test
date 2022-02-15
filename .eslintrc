@@ -1,5 +1,8 @@
 {
-  "extends": ["taro/react"],
+  // "extends": ["taro/react"],
+  "parser": "@typescript-eslint/parser",
+  "plugins": "['@typescript-eslint', 'react']",
+  "extends": "['taro/react','standard','plugin:@typescript-eslint/recommended','plugin:react/recommended']",
   "rules": {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off"
