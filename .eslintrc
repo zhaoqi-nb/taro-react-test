@@ -1,10 +1,9 @@
 {
-  // "extends": ["taro/react"],
-  "parser": "@typescript-eslint/parser",
-  "plugins": "['@typescript-eslint', 'react']",
-  "extends": "['taro/react','standard','plugin:@typescript-eslint/recommended','plugin:react/recommended']",
+  "extends": ["taro"],
   "rules": {
-    "react/jsx-uses-react": "off",
-    "react/react-in-jsx-scope": "off"
-  }
+    "no-unused-vars": ["error", { "varsIgnorePattern": "Taro" }],
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
+  },
+  "parser": "babel-eslint",
+  "plugins": ["typescript"]
 }

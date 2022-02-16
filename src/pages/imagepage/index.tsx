@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import { Swiper, SwiperItem, View, CustomWrapper, Text } from '@tarojs/components'
 import './index.less'
 

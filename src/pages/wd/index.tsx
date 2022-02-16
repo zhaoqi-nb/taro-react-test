@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import React, { Component } from 'react'
 import { Swiper, SwiperItem, View, CustomWrapper, Text } from '@tarojs/components'
 import './index.less'
 
@@ -22,7 +22,7 @@ export default class Index extends Component {
         interval={1500}
         indicatorColor='#999'
         onClick={() => { }}
-        circular={true}
+        circular
         onAnimationFinish={() => { }}
       >
         <SwiperItem>

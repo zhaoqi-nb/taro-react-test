@@ -1,5 +1,5 @@
-import { Component } from 'react'
-import { Swiper, SwiperItem, Image } from '@tarojs/components'
+import React, { Component } from 'react'
+import { Swiper, SwiperItem } from '@tarojs/components'
 import './index.less'
 
 const imgList = [1,2,3,4,5,6,7,8,9]

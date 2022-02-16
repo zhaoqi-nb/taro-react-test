@@ -13,17 +13,26 @@ export default defineAppConfig({
     backgroundColor: '#2ab94a',
   },
   tabBar: {
-    "custom": true,
-    "color": "#000000",
-    "selectedColor": "#000000",
-    "backgroundColor": "#000000",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "组件"
+    list: [{
+      // 'iconPath': 'resource/latest.png',
+      // 'selectedIconPath': 'resource/lastest_on.png',
+      pagePath: 'pages/index/index',
+      text: '最新'
     }, {
-      "pagePath": "pages/wd/index",
-      "text": "接口"
-    }]
+      // 'iconPath': 'resource/hotest.png',
+      // 'selectedIconPath': 'resource/hotest_on.png',
+      pagePath: 'pages/wd/index',
+      text: '热门'
+    }, {
+      // 'iconPath': 'resource/node.png',
+      // 'selectedIconPath': 'resource/node_on.png',
+      pagePath: 'pages/musicpage/index',
+      text: '节点'
+    }],
+    'color': '#000',
+    'selectedColor': '#56abe4',
+    'backgroundColor': '#fff',
+    'borderStyle': 'pink'
   },
-  // lazyCodeLoading: "requiredComponents"
+  lazyCodeLoading: "requiredComponents"
 })
